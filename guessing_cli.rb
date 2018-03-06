@@ -5,7 +5,6 @@ def run_guessing_game
   i = rand(6) + 1
   input = gets.chomp
   num = input.to_i
-  binding.pry
 
 
 
