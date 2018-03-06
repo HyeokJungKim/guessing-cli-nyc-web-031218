@@ -5,11 +5,11 @@ def run_guessing_game
   input = gets.chomp
   num = input.to_i
   # until (num == i || input == "exit")
-  #   
+  #
   # end
   if input == "exit"
     puts "Goodbye!"
   else
     puts "You guessed the correct number!"
-
+  end
 end
