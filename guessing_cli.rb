@@ -28,4 +28,3 @@ end
   #   input = gets.chomp
   #   num = input.to_i
   # end
-
