@@ -6,6 +6,8 @@ def run_guessing_game
   num = input.to_i
   until (num == i || input == "exit")
     puts "The computer guessed #{i}."
+    input = gets.chomp
+    num = input.to_i
   end
   if input == "exit"
     puts "Goodbye!"
