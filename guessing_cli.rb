@@ -15,10 +15,10 @@ def run_guessing_game
       num = input.to_i
     end
   end
-
-  if input == "exit"
-    puts "Goodbye!"
-  elsif num == i
+  #
+  # if input == "exit"
+  #   puts "Goodbye!"
+  # elsif num == i
 
   end
 
