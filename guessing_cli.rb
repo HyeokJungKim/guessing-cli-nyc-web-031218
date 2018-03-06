@@ -7,9 +7,14 @@ def run_guessing_game
   until (input == "exit")
     if num == i
       puts "You guessed the correct number!"
+      input = gets.chomp
+      num = input.to_i
     else
       puts "The computer guessed #{i}."
+      input = gets.chomp
+      num = input.to_i
     end
+    
   end
 
   if input == "exit"
