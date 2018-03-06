@@ -15,7 +15,7 @@ def run_guessing_game
       num = input.to_i
     end
   end
-      puts "Goodbye!"
+  puts "Goodbye!"
 end
 
   #
