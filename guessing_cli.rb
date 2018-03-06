@@ -14,7 +14,6 @@ def run_guessing_game
       input = gets.chomp
       num = input.to_i
     end
-    
   end
 
   if input == "exit"
