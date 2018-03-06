@@ -15,12 +15,13 @@ def run_guessing_game
       num = input.to_i
     end
   end
+end
+end
   #
   # if input == "exit"
   #   puts "Goodbye!"
   # elsif num == i
 
-  end
 
   # until (num == i || input == "exit")
   #   puts "The computer guessed #{i}."
